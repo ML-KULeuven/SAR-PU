@@ -35,7 +35,6 @@ setuptools.setup(
         "dill",
         "cvxopt",
         "git+https://github.com/bluelabsio/BL-SAR-PU.git@installation-edits#subdirectory=lib/tice",
-        "git+https://github.com/bluelabsio/BL-SAR-PU.git@installation-edits#subdirectory=lib/km",
-
+        "git+https://github.com/bluelabsio/BL-SAR-PU.git@installation-edits#subdirectory=lib/km"
     ],
 )
