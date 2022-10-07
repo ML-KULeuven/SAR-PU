@@ -167,7 +167,7 @@ def wrapper(X_mixture,X_component):
     return (kappa_star_est_2,kappa_star_est_1)	
     
 
-if __name__=='__main__':
+def main():
     """ Calls wrapper with a GMM as the mixture distribution and one of the 
     components as the component distribution. Replace the X_miture and X_component 
     variables according to your data"""
@@ -183,5 +183,10 @@ if __name__=='__main__':
     (KM1,KM2)=wrapper(X_mixture,X_component)
     print ("KM1_estimate={}".format(KM1))
     print ("KM2_estimate={}".format(KM2))
+
+
+if __name__=='__main__':
+    main()
+
 
 

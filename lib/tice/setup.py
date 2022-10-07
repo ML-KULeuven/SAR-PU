@@ -14,4 +14,9 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    entry_points={
+        'console_scripts': [
+            'tice = tice.tice:main'
+        ]
+    },
 )
