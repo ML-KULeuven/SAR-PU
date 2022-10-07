@@ -16,7 +16,7 @@ setuptools.setup(
     ],
     entry_points={
         'console_scripts': [
-            'tice = tice.tice:main'
+            'tice = tice.__main__:main'
         ]
     },
 )
